@@ -1,3 +1,14 @@
+
+#You can chek the availibility of the server with these API examples if you want
+1.Current weather
+GET http://localhost:5000/api/weatherapi/current?city=Seoul&countryCode=KR
+
+2. 3 days weather
+GET http://localhost:5000/api/weatherapi/forecast?city=Seoul&countryCode=KR
+
+3. Weather alerts
+GET http://localhost:5000/api/weatherapi/alerts?city=Seoul&countryCode=KR
+
 # MCP Server
 
 This README was created using the C# MCP server project template. It demonstrates how you can easily create an MCP server using C# and publish it as a NuGet package.
