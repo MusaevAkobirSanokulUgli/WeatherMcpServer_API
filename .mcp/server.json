@@ -1,0 +1,21 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schemas/draft/2025-07-09/server.json",
+  "description": "Real weather MCP server that fetches live weather data from OpenWeatherMap API",
+  "name": "io.github.MusaevAkobirSanokulUgli/WeatherMcpServer",
+  "packages": [
+    {
+      "registry_name": "nuget",
+      "name": "SampleMcpServer",
+      "version": "0.1.0-beta",
+      "package_arguments": [],
+      "environment_variables": ["OPENWEATHER_API_KEY"]
+    }
+  ],
+  "repository": {
+    "url": "https://github.com/MusaevAkobirSanokulUgli/WeatherMcpServer",
+    "source": "github"
+  },
+  "version_detail": {
+    "version": "0.1.0-beta"
+  }
+}
